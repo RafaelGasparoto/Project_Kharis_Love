@@ -9,24 +9,7 @@ class StartGame extends StatefulWidget {
 }
 
 class _StartGame extends State<StartGame> {
-  List<String> txt = [
-    "Oi meu amorzinho, sim eu to do seu lado nesse momento mas esssa é minha versão digital.",
-    "Eu sou o Rafael de verdade, já que se você parar pra pensar eu mesmo me programei nessa versão digital.",
-    "E bem... eu pensei muito antes para dizer isso.",
-    "Ok, 1, 2, 3, vamos lá.",
-    "Bem, eu fiz isso porque eu não queria acabar travando ou esquecendo de dizer algo...",
-    "Muita coisa se passou entre nós para estarmos juntos aqui hoje...",
-    "Mesmo depois disso tudo eu ainda gosto muito de você.",
-    "Quando estou ao seu lado sempre estou feliz e quero ter mais desses momentos.",
-    "Te admiro muito pela mulher que você é, forte, inteligente, carinhosa, engraçada, linda, fofa...",
-    "Entre outras coisas, são muitos os pontos fortes que você tem e eu vejo eles e admiro, é uma pessoa que quero ao meu lado.",
-    "Tu me cativou e eu te cativei, temos a necessidade um do outro, tu és única para mim no mundo.",
-    "E como diz a raposa ao pequeno príncipe...",
-    "Tu te tornas eternamente responsável por aquilo que cativas. Tu és resposável pela rosa...",
-    "Sou responsável por cuidar, proteger e dedicar-se constantemente do seu sentimento por mim...",
-    "Para zelar por ele eu preciso saber uma coisa...",
-    "Você quer me acompanhar nesta longa jornada da vida como minha namorada?",
-  ];
+  List<String> txt = [];
   List<String> imgs = ["assets/images/eu.png", "assets/images/os2final.png"];
   int index = 0;
 
